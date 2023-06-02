@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+
+body {
+    line-height: 1.5,
+    width: 500px;
+    background-color: #dd7230;
+    color: #f5f6f7;
+    font-size: 16px;
+    margin: auto;
+    
+  }
+
+#Yes, #No {
+  vertical-align: middle;
+}
+
+h1, p{
+  font-family: "PT Serif";
+    text-align: center;
+  box-shadow: 10px 5px 10px red, -10px -5px 5px orange;
+}
+
+
+  form {
+    background:  black,
+      padding: 2.5rem 2.5rem;
+    
+  }
+  
+  fieldset {
+    background-color: #92817a;
+    box-shadow: 10px 5px 10px red, -10px -5px 5px orange;
+    padding: 1rem 0;
+    border-bottom: 1px solid #3b3b4f;
+  }
+
+  fieldset:last-of-type {
+    border-bottom: 1px solid #3b3b4f;
+    
+  }
+
+/*spacing between elements*/ 
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+/*Formating of Questions*/ 
+  .name, .email, .age, .Best_Food, select{
+    display: block;
+    margin: 10px 0 0 0;
+    width: 99%;
+    min-height: 2em;
+  }
+
+
+/*Color fill in box*/ 
+  input, select {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+  #dropdown{
+    width: 100%;
+  }
+
+/*text box*/ 
+textarea {
+    display: block;
+    width: 99%;
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+/*Submit button*/ 
+  input[type="submit"] {
+    width: 99%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: blue;
+    border-color: white;
+    min-width: 300px;
+    box-shadow: 10px 5px 10px red, -10px -5px 5px orange;
+   
+  }
+
+
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input[type="radio"]{
+  vertical-align: middle;
+
+}

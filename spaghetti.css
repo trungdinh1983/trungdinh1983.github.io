@@ -1,0 +1,13 @@
+.Directions {
+  inline-size: 350px;
+  overflow-wrap: break-word;
+  hyphens: manual: none;
+}
+
+/* Check size dimension */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

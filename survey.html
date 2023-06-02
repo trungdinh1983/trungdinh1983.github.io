@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurant Experience</title>
+    <link rel="stylesheet" href="Survey.css" />
+  </head>
+  <body>
+
+<h1 id="title"> Restaurant Experience </h1>
+<center>
+<a href="index.html">Home</a>
+&nbsp &nbsp
+<a href="TopItemGallery.html">Favorite Dishes</a>
+</center>
+  <p id="description">Fill out questions below to complete survey.</p>
+<Form id="survey-form">
+  <fieldset>
+    
+    <label for="name" id="name-label">Name:
+      <input id="name" type="text" name="name" placeholder="Gorden Ramsey" class="name" required/>
+
+      <label for="email" id=email-label>Email:
+      <input id="email" type="email" name="email" placeholder="GordenRamsey@FoodNetwork.com" class="email" required/>
+        
+         <label for="number" id="number-label">Age (In Years):
+      <input id="number" type="number" name="number" placeholder="1-120" min="1" max="120" class="age"required/>
+   
+      <label for="dropdown" id="Best-Food"
+          >What is the Best Food on the Menu?
+          <select id="dropdown" name="Best_Food" class="Best_Food">
+            <option value="Omelette">Omelette</option>
+            <option value="Beef_Wellington">Beef Wellington</option>
+            <option value="Egg_Benedict">Egg Benedict</option>
+            <option value="Ribeye_Steak">Ribeye Steak</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>  
+           
+           <label for="Yes" id="Yes">Likelihood to recommend:</label>
+           
+          <input
+            id="Yes"
+            type="radio"
+            name="YesORno"
+            class="radio"
+          />
+          Yes</label
+        >
+        <label for="No"
+          ><input
+            id="No"
+            type="radio"
+            name="YesORno"
+            class="radio"
+          />
+          No</label
+        >
+           
+           
+      <label for="experience"
+          >Provide overall restaurant experience:
+          <textarea
+            id="experience"
+            name="experience"
+            rows="3"
+            cols="70"
+            placeholder="Customer Service, Wait Time, Food Quality, ETC., List Best Food If select OTHER option earlier"
+          ></textarea>
+        </label>      
+           
+  </fieldset>
+      <input id=submit type="submit" value="Submit" />
+  
+</Form>
+
+<center>
+<a href="index.html">Home</a>
+&nbsp &nbsp
+<a href="TopItemGallery.html">Favorite Dishes</a>
+&nbsp &nbsp
+<a href="#top">Back to top of page</a>
+</center>
+
+        </body>
+  </html>
