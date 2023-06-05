@@ -1,171 +1,61 @@
-Check gallery
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes</title>
+  <title>About Me</title>
   <link rel="stylesheet" href="styles.css">
-  
-  
-  <h1>Lets Have Fun Cooking</h1>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <!-- (bootstrap code - need be in header) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- (JS for TopNAV) -->
 
 </head>
 <body>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  <!-- (bootstrap code need be in body) -->
-
-  <!-- Below title, Above Gallery pages -->
-<nav>
-
-  <a href="survey.html">Survey</a>
-</br>
-</br>
-  <a href="TopItemGallery.html">Favorite Dishes</a>
-
-</nav>
-<!-- Below title, Above Gallery pages -->
-
-  
-<!-- Images in header -->
-<div class="gallery">
-  <img
-    src="https://img.texasmonthly.com/2022/10/B4-Barbeque-Boba-Mabank-BBQ-Tray-1.jpg?auto=compress&crop=faces&fit=fit&fm=webp&h=0&ixlib=php-3.3.1&q=45&w=1820" alt="Barbeque"
-  />
-  <img
-    src="https://www.modernhoney.com/wp-content/uploads/2020/02/Chocolate-Dessert-Board-11-scaled.jpg" alt="Dessert"
-  />
-  <img
-    src="https://keeshaskitchen.com/wp-content/uploads/2022/02/Fresh_Fruits_Keesha_s_Kitchen_1024x1024.jpg" alt="Fruits"
-  />
-  <!-- ---Images in header ---- -->
-  
-  </div>
-
-  <div class="background">
-    <div class="transbox">
-      <h1> Trending Food Recipes</h1>
-      <h2>We are about great food for the right occasion</h2>
-<!--    
-      ------- Start of Slider ------ -->
-      <!-- <div id="slider">
-        <figure>
-
-          <a href="Spaghetti.html">Spaghetti</a>
-      <div class="img-with-text"></div>
-         <a href="Spaghetti.html"><img src=" https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs.jpg" width="300" height="300"></a> 
-
-         <a href="https://cooking.nytimes.com/recipes/1014547-galbi-korean-style-short-ribs">Short Rib</a>
-         <div class="img-with-text"></div>
-               <a href="Short Rib.html"><img src=" https://static01.nyt.com/images/2013/02/20/dining/20KITCH1_SPAN/20KITCH1_SPAN-articleLarge.jpg" width="300" height="300"></a> 
+  <a href="mailto:trungdinh1983@gmail.com"><img src="picture_path.jpg" height width/></a>
 
 
-           <a href="Caesar.html"><img src="https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg" width="300" height="300"></a> 
-        </figure>
-    </div> -->
+  <!-- NAV BAR-->
+  <div class="navbar">
 
-    <!-- --------- End of Slider ------------ -->
-
-
-<!-- ------- Test Picture hyperlink ------
-      <a href="Spaghetti.html">Spaghetti</a>
-      <div class="img-with-text"></div><a href="Spaghetti.html"><img src=" https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs.jpg" style="width:50px;height:50px;"></a> 
-     -------- Test Picture hyperlink ---------- -->
-
-
-
-  <!-- Carasouse Start -->
-
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-
-        <div class="crop">
-          <a href="Short Rib.html"></a>
-        <img src="https://static01.nyt.com/images/2013/02/20/dining/20KITCH1_SPAN/20KITCH1_SPAN-articleLarge.jpg" class="d-block w-100" alt="...">
-      </div>
-      </div>
-
-      <div class="carousel-item" data-bs-interval="2000">
-
-        <div class="crop">
-        <img src="https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg" alt="Caesar Salad" class="d-block w-100" alt="...">
-      </div>
-      </div>
-
-      <div class="carousel-item">
- <div class="crop">
-        <img src="https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs.jpg" alt= "Spaghetti Meatball" class="d-block w-100" alt="...">
-</div>
+    <div class="dropdown">
+      <button class="dropbtn">Trends
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-  <!-- Carasouse @bootstrap End No Css except crop class (https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped )-->
-
-
-     
+    <div class="dropdown">
+      <button class="dropbtn">Sample Work
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index2.html">Food Website - complete</a>
+        <a href="spaghetti.html">Spaghetti</a>
+        <a href="survey.html">Survey</a>
+      </div>
     </div>
-      
+
+    <!-- (spaghetti website - need fixing) -->
+
+    <a href="#home">About Me</a>
+
+      <div class="dropdown">
+      <button class="dropbtn">Contact
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="mailto:trungdinh1983@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/trung-dinh-9513543/">Linkend</a>
+        <a href="https://www.facebook.com/trung.dinh.560/">Facebook</a>
+      </div>
     </div>
-  </div>
-
-
-
-
-
-
-
-  <!-- Text Box and text box > div background/ div transbox -->
-  <div class="background">
-    <div class="transbox">
-      <h1> About US</h1>
-      <h2>We are about great food for the right occasion</h2>
-
-
-
-      
-    </div>
-  </div>
-
-  <div class="background">
     
-    <div class="transbox">
-      <h1> Long Time Favorite</h1>
-      <h2>We are about great food for the right occasion</h2>
-
-      <!-- Spaghetti Image -->
-      <!-- <div class="img-with-text">
-        <img src="https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs.jpg" alt="Spaghetti" />
-        <p>Spaghetti</p>
-    </div> -->
-     
-    </div>
-
- 
-   
-
+  </div>
   
-</div>
-
-
-
 </body>
 </html>
-
-
-  

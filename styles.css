@@ -1,130 +1,80 @@
-p {
-  width: 100px;
-  height: 80px;
-  padding: 20px;
-  border: none;
-  text-align: center;
-}
-
-
-body nav {
-
-  color: rgb(0, 255, 55);
-  text-align: center;
-  text-shadow: 1.5px 1.5px 2px #ff0000;
-
-
-}
-
-h1 {
-  color: BLUE;
-  text-align: center;
-  text-shadow: 1.5px 1.5px 2px #ff0000;
-}
-
 body {
-  background-image: url("https://wallpapers.com/images/high/blue-sky-3d-nature-vryunb85h8yxunc6.webp");
-/* background */
-  /* https://i.gifer.com/65w.gif */
+  background: lightblue url("https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg?w=2000&t=st=1685986841~exp=1685987441~hmac=f5f939eaa0bbaefdad8b5e64a4bdebf7617c7a2ddf4e843327ea6d19bfb67fe8") no-repeat fixed center;
+}
 
-  opacity: 1.5;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #cccccc;
+
+/* =============NAVBAR============= */
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  opacity: 0.5;
+  box-shadow: 20px 20px 30px red, -20px -20px 30px orange;
+  margin-top: 10px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
   text-align: center;
-  text-shadow: 1.5px 1.5px 2px #ff0000;
-  
- }
-
-
-/* Start styling for header picture */
-.gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px 10px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.gallery img {
-  width: 100%;
-  max-width: 350px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 25px;
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-.gallery::after {
-  content: "";
-  width: 350px;
-}
-
-/*  End styling for header picture */
-
-
-/* ---- Start styling for text box --- */
-
-/* Need to check? */
-.box {
-  background-color: #ffffff;
-  margin-top: 15px;
-  text-align: center;
-  text-size-adjust: 100;
-  
-}
-
-
-div.background {
-  width: 600px;
-  height: 250px;
-
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
   border: none;
-  /* Border around text box */
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-
-div.transbox {
-  /* margin: 30px;
-  margin-left: 170px;
-  margin-right: 170px; */
-  
-  width: 500px;
-  height: 230px;
-
- 
-  background-color: #ffffff;
-  border: none;
-  opacity: 0.6;
-  border-radius: 25px;
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
 
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-  border-radius: 25px;
-}
-/*End styling for text box */
-
-/* (crop class in carasoul) */
-.crop {
-  width: 200px;
-  height: 150px;
-  margin: auto;
-  
-  /* overflow: hidden; */
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-.crop img {
-  width: 400px;
-  height: 300px;
-  margin: -75px 0 -100px;
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
-/* (crop class in carasoul) */
 
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
+/* =============NAVBAR============= */
