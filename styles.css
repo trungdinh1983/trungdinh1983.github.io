@@ -1,6 +1,13 @@
 body {
-  background: lightblue url("https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg?w=2000&t=st=1685986841~exp=1685987441~hmac=f5f939eaa0bbaefdad8b5e64a4bdebf7617c7a2ddf4e843327ea6d19bfb67fe8") no-repeat fixed center;
+  background: lightblue url("https://photos.google.com/album/AF1QipP3WjK-u76HZYeRlQ027gG-d4fwpCVYlZ86GabF/photo/AF1QipPfCbQdGDjwAKq_NplWJivWeeOkDJOit_ULp4PR") no-repeat fixed center;
 }
+/* body {
+  background: lightblue url("
+  TrungHikeRight.jpg") no-repeat fixed center;
+} */
+
+
+/* TrungHikeRight.jpg */
 
 
 /* =============NAVBAR============= */
@@ -77,4 +84,28 @@ body {
   display: block;
 }
 
-/* =============NAVBAR============= */
+/* =============End NAVBAR============= */
+
+
+
+/* Start Hiking with text */
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+}
+
+/* End Hiking with text */
+
