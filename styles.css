@@ -1,21 +1,26 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg");
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=800");
   background-repeat: no-repeat;
   background-position: center center;
-  margin-top: 50px
+  margin-top: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* TrungHikeRight.jpg */
+/* https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg */
 
 
-/* =============NAVBAR============= */
+/* ===========Start NAVBAR============= */
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #87c1d7;
   font-family: Arial;
-  opacity: 0.5;
-  box-shadow: 20px 20px 30px red, -20px -20px 30px orange;
+  opacity: 0.6;
+  box-shadow: 20px 20px 30px rgb(0, 255, 76), -20px -20px 30px rgb(0, 64, 255);
   margin-top: 10px;
 }
 
@@ -66,7 +71,7 @@ body {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -101,7 +106,7 @@ body {
   top: 20px;
   /* bottom: 20px; */
   display: block;
-  margin-left: 15em;
+  margin-left: 17em;
     /* margin-right: auto; */
   
   background-color: rgb(249, 244, 244);
@@ -112,5 +117,4 @@ body {
   opacity: .5;
 }
 
-/* End Hiking with text */
 
