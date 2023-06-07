@@ -1,5 +1,6 @@
 body {
   background: lightblue url("https://photos.google.com/album/AF1QipP3WjK-u76HZYeRlQ027gG-d4fwpCVYlZ86GabF/photo/AF1QipPfCbQdGDjwAKq_NplWJivWeeOkDJOit_ULp4PR") no-repeat fixed center;
+  background-repeat: no-repeat;
 }
 /* body {
   background: lightblue url("
@@ -88,11 +89,12 @@ body {
 
 
 
-/* Start Hiking with text */
+/* Start Hiking with text default position relative */
 
 /* Container holding the image and the text */
 .container {
   position: relative;
+
 }
 
 /* Bottom right text */
@@ -104,7 +106,6 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  background-repeat: no-repeat;
 }
 
 /* End Hiking with text */
