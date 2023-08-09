@@ -63,6 +63,8 @@ body {
   width: 350px;
 }
 
+
+
 /*  End styling for header picture */
 
 
@@ -127,4 +129,9 @@ div.transbox p {
 /* (crop class in carasoul) */
 
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
