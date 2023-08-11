@@ -1,7 +1,7 @@
 body {
   background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=800");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   margin-top: 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -102,12 +102,11 @@ body {
 
 /* Bottom right text */
 .text-block {
-  position: absolute;
-  top: 0px;
-  /* bottom: 20px; */
-  display: block;
-  margin-left: 17em;
-    /* margin-right: auto; */
+  position: relative;
+
+  width: 800px;
+  margin: auto;
+
   
   background-color: rgb(249, 244, 244);
   color: rgb(102, 99, 99);
