@@ -7,6 +7,7 @@ p {
 }
 
 
+
 body nav {
 
   color: rgb(0, 255, 55);
@@ -16,10 +17,11 @@ body nav {
 
 }
 
-h1 {
+h1, h2 {
   color: BLUE;
   text-align: center;
   text-shadow: 1.5px 1.5px 2px #ff0000;
+
 }
 
 body {
@@ -32,7 +34,7 @@ body {
   background-repeat: no-repeat;
   background-color: #cccccc;
   text-align: center;
-  text-shadow: 1.5px 1.5px 2px #ff0000;
+  text-shadow: 1.5px 1.5px 2px #020000;
   
  }
 
@@ -47,7 +49,7 @@ body {
   gap: 16px;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 50px 10px;
 }
 
 .gallery img {
@@ -75,29 +77,28 @@ body {
   background-color: #ffffff;
   margin-top: 15px;
   text-align: center;
-  text-size-adjust: 100;
   
 }
 
 
 div.background {
-  width: 600px;
-  height: 250px;
-
-  border: none;
-  /* Border around text box */
+  display: flex; /* Make this a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center */ 
+  height: 280px;
+  /* position: relative; */
+  /* border: none; */
 }
 
 
 div.transbox {
-  /* margin: 30px;
-  margin-left: 170px;
-  margin-right: 170px; */
-  
-  width: 500px;
-  height: 230px;
-
- 
+  display: flex; /* Enable Flexbox */
+  flex-direction: column-reverse; /* Stack child elements vertically */
+  justify-content: center; /* Center child elements horizontally */
+  align-items: center; /* Center child elements vertically */
+  position: relative;
+  width: 420px;
+  height: 320px;
   background-color: #ffffff;
   border: none;
   opacity: 0.6;
@@ -108,14 +109,15 @@ div.transbox p {
   margin: 5%;
   font-weight: bold;
   color: #000000;
-  border-radius: 25px;
+  border-radius: 250px;
+  
 }
 /*End styling for text box */
 
 /* (crop class in carasoul) */
 .crop {
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 300px;
   margin: auto;
   
   /* overflow: hidden; */
@@ -130,8 +132,9 @@ div.transbox p {
 
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
