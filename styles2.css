@@ -28,8 +28,8 @@ body {
   background-image: url("https://wallpapers.com/images/high/blue-sky-3d-nature-vryunb85h8yxunc6.webp");
 /* background */
   /* https://i.gifer.com/65w.gif */
-
-  opacity: 1.5;
+  min-height: 100vh;
+  opacity: 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #cccccc;
